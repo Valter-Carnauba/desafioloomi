@@ -1,0 +1,29 @@
+# WordPress core (não commitar)
+/wp-admin/
+/wp-includes/
+/*.php
+/wp-*.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Configurações sensíveis
+wp-config.php
+.env
+
+# Conteúdo e cache
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Plugins e temas de terceiros (exceto os que você customizou)
+/wp-content/plugins/*
+/wp-content/themes/*
+
+# Permite apenas o tema filho específico
+!/wp-content/themes/hello-elementor-child/
+
+# Sistemas de build/dependências
+/node_modules/
+/vendor/
+/composer.lock
