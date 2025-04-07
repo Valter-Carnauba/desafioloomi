@@ -27,3 +27,7 @@ wp-config.php
 /node_modules/
 /vendor/
 /composer.lock
+
+# Certifique-se que seu .gitignore contém estas linhas EXATAS:
+echo "/wp-content/index.php" >> .gitignore
+echo "/wp-content/languages/" >> .gitignore
