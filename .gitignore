@@ -21,6 +21,7 @@ wp-config.php
 /wp-content/themes/*
 
 # Permite apenas o tema filho específico
+!/wp-content/themes/desafioloom/
 !/wp-content/themes/hello-elementor-child/
 
 # Sistemas de build/dependências

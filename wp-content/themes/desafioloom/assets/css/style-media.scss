@@ -1,0 +1,254 @@
+/*=============================
+MEDIA QUERIES
+=============================*/
+@media (max-width: 767px) {
+  .fdez-hero {
+    img {
+      height: 30rem;
+    }
+  }
+  .fdez-home-news {
+    h1 {
+      font-size: 3.8rem;
+      text-align: center;
+    }
+  }
+  .five-section {
+    h2 {
+      margin-bottom: 4rem;
+      font-family: "Inter Bold";
+      font-size: 3.8rem;
+      text-align: center;
+    }
+  }
+  #fdez-nav-top {
+    & .navbar-nav {
+      .nav-link,
+      .nav-ativo {
+        padding: 0 2rem 2rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  #fdez-menu-main {
+    & .navbar-nav {
+      .nav-link {
+        padding: 0 2rem 2rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  #fdez-menu-main button.btn-base.d-flex {
+    margin: 0 auto 2rem;
+    display: table;
+  }
+  .fdez-home-news {
+    article {
+      flex-direction: column;
+    }
+  }
+  .fdez-home-news {
+    & article {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .fdez-news {
+    & .one-section {
+      h1 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+      & figure {
+        img {
+          height: 34rem;
+        }
+      }
+    }
+  }
+  .fdez-news {
+    & .one-section {
+      & figure {
+        figcaption {
+          top: 3.5rem;
+          left: 1.5rem;
+        }
+      }
+    }
+  }
+  .two-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .two-section {
+    .one-box {
+      display: flex;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+  }
+  .three-section {
+    p {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+  .five-section {
+    .one-box {
+      flex-direction: column;
+    }
+    .d-flex.gap-4.mb-4 {
+      flex-direction: column;
+      width: 80%;
+    }
+  }
+  .aside {
+    & .mais-lidas {
+      h5 {
+        width: 29rem;
+      }
+    }
+  }
+  .error {
+    .clip {
+      .shadow {
+        height: 10rem;
+
+        &:nth-of-type(2) {
+          width: 8rem;
+        }
+
+        &:nth-of-type(1),
+        &:nth-of-type(3) {
+          width: 10rem;
+        }
+      }
+    }
+
+    .digit {
+      width: 8rem;
+      height: 8rem;
+      line-height: 8rem;
+      font-size: 5.2rem;
+    }
+
+    h2 {
+      font-size: 2.4rem;
+    }
+
+    .msg {
+      top: -11rem;
+      left: 15%;
+      width: 4rem;
+      height: 4rem;
+      line-height: 4rem;
+      font-size: 1.8rem;
+    }
+
+    span.triangle {
+      top: 70%;
+      right: -3%;
+      border-left: 1rem solid #535353;
+      border-top: 0.8rem solid transparent;
+      border-bottom: 0.8rem solid transparent;
+    }
+
+    .container-error-404 {
+      height: 15rem;
+    }
+  }
+}
+ 
+@media (min-width: 414px) and (max-width: 416px) {
+}
+
+@media (min-width: 568px) and (max-width: 568px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (max-width: 991px) {
+  .newsletter-container {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .newsletter-container {
+    padding: 1.6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .fdez-home-news {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  .five-section {
+    h2 {
+      font-family: "Inter Bold";
+      font-size: 5rem;
+    }
+  }
+  #fdez-menu-main {
+    & .navbar-nav {
+      .nav-link {
+        padding: 0 2rem 2rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  #fdez-menu-main button.btn-base.d-flex {
+    margin: 0 auto 2rem;
+    display: table;
+  }
+  .aside {
+    & .mais-lidas {
+      h5 {
+        width: 60rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fdez-menu-main {
+    & .navbar-nav {
+      .nav-link {
+        padding: 0 0.4rem;
+      }
+    }
+  }
+  .fdez-home-news {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  .five-section {
+    h2 {
+      font-family: "Inter Bold";
+      font-size: 5rem;
+    }
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1400px) {
+  #fdez-menu-main {
+    & .navbar-nav {
+      .nav-link {
+        padding: 0 1.4rem;
+      }
+    }
+  }
+}
